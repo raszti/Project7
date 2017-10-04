@@ -70,7 +70,7 @@ $(function() {
     describe("Initial Entries", function() {
 
       beforeEach(function(done) {
-      loadFeed(0,done);
+        loadFeed(0,done);
       });
 
         /* This test ensures when the loadFeed
@@ -80,7 +80,7 @@ $(function() {
          * the use of Jasmine's beforeEach and asynchronous done() function.
          */
         it("Feed contains minimum 1 entry element",function(){
-          expect($(".feed").find(".entry").length).not.toBe(0);
+          expect($(".feed .entry").length).not.toBe(0);
         });
 
     });

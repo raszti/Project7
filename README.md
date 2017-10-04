@@ -34,7 +34,7 @@ This test ensures the menu changes visibility when the menu icon is clicked. Thi
 
 ## Initial Entries
 
-### feed contains minimum 1 entry element
+### feed contains minimum one entry element
 This test ensures when the `loadFeed` function is called and completes its work, there is at least a single `.entry` element within the `.feed` container.
 
 ## New Feed Selection
@@ -43,23 +43,20 @@ This test ensures when the `loadFeed` function is called and completes its work,
 This test ensures when a new feed is loaded by the `loadFeed` function that the content actually changes.
 Implemented error handling for undefined variables.
 
-## The application uses
------------------------
-Jasmine JavaScript 2.1.2 framework for testing
-jQuery 2.1.1 JavaScript library
-Handlebars 2.0.0 for creating templates
+## The application uses the following external libraries and frameworks
+-----------------------------------------------------------------------
+[Jasmine JavaScript 2.1.2 framework](https://github.com/jasmine/jasmine) for testing
+[jQuery 2.1.1 JavaScript library](http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js)
+[Handlebars 2.0.0](http://cdn.jsdelivr.net/handlebarsjs/2.0.0/handlebars.min.js) for creating templates
+[Google JSAPI](http://google.com/jsapi)
 
 
 ## License
 ----------
 Copyright [2017] [Gabor Furesz]
 
-Licensed under the Apache License, Version 2.0 (the "License");
+Licensed under the [Apache License, Version 2.0 (the "License")](http://www.apache.org/licenses/LICENSE-2.0);
 you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
